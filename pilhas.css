@@ -1,0 +1,77 @@
+
+.titulo{
+  display: flex;
+  justify-content: center;
+  color: rgb(5, 64, 153);
+  font-family: sans-serif;
+}
+.TituloCartas{
+  margin-left: 50px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: rgb(64, 115, 190);
+}
+.cartas{
+  display: flex;
+  align-items: start;
+  flex-direction: row;
+  margin-left: 45px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  max-height: 700px;
+  max-width: 100%;
+}
+.nomeCartas{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-right: 50px;
+}
+.carta{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 65px;
+  margin-top: 15px;
+  margin-left: 8px;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family:  sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+.cartaCopas{
+  background-color: rgba(34, 82, 172, 0.527);
+}
+.cartaEspadas{
+  background-color: rgba(24, 161, 47, 0.466);
+}
+.cartaOuros{
+  background-color: #FFCC00;
+}
+.cartaPaus{
+  background-color: #cc1800ab;
+}
+.divButton{
+  margin-left: 80px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.button{
+  background-color: #fff;
+  border: 2px #000099 solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #000099;
+}
+.button:hover{
+  background-color: #f2f2f2;
+}
